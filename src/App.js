@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Home from "./components/pages/Home";
 import Apartment from "./components/pages/Apartment";
 import Gallery from "./components/pages/Gallery";
@@ -9,12 +10,13 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Apartment} />
-        <Route path="/contact" component={Gallery} />
-        <Route path="/contact" component={Rules} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/" element={<Home />} />
+        <Route path="apartment" element={<Apartment />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="rules" element={<Rules />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

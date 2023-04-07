@@ -76,30 +76,6 @@ function Navbar() {
               >
                 <i className="fab fa-facebook-f" />
               </Link>
-              {/* <Link
-                className="social-icon-link instagram"
-                to="/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <i className="fab fa-instagram" />
-              </Link>
-              <Link
-                className="social-icon-link twitter"
-                to="/"
-                target="_blank"
-                aria-label="Twitter"
-              >
-                <i className="fab fa-twitter" />
-              </Link>
-              <Link
-                className="social-icon-link twitter"
-                to="/"
-                target="_blank"
-                aria-label="LinkedIn"
-              >
-                <i className="fab fa-linkedin" />
-              </Link> */}
             </div>
           </ul>
         </div>

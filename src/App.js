@@ -5,7 +5,7 @@ import Home from "./components/pages/Home";
 import Apartment from "./components/pages/Apartment";
 import Gallery from "./components/pages/Gallery";
 import Rules from "./components/pages/Rules";
-import Contact from "./components/pages/Contact";
+import ContactDetails from "./components/pages/ContactDetails";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="apartment" element={<Apartment />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="rules" element={<Rules />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<ContactDetails />} />
       </Routes>
     </BrowserRouter>
   );

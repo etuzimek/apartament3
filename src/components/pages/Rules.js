@@ -1,7 +1,7 @@
 import React from "react";
 import "./Rules.css";
 
-export default function Rules() {
+function Rules() {
   return (
     <>
       <div className="regulamin">
@@ -101,3 +101,5 @@ export default function Rules() {
     </>
   );
 }
+
+export default Rules;

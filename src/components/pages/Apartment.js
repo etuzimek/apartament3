@@ -1,7 +1,7 @@
 import React from "react";
 import "./Apartment.css";
 
-export default function Apartment() {
+function Apartment() {
   return (
     <>
       <div className="apartment">
@@ -36,3 +36,5 @@ export default function Apartment() {
     </>
   );
 }
+
+export default Apartment;

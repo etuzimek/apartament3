@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Cards.css";
 
 function Cards() {
@@ -6,24 +7,24 @@ function Cards() {
     <>
       <div className="mobile">
         <div className="mobile-container">
-          <a href="apartment">
+          <Link to="/apartment">
             <img src="/images/apartament1.jpg" alt="apartment"></img>
-          </a>
+          </Link>
         </div>
         <div className="mobile-container">
-          <a href="beach">
+          <Link to="/beach">
             <img src="/images/beach1.jpg" alt="beach"></img>
-          </a>
+          </Link>
         </div>
         <div className="mobile-container">
-          <a href="attractions">
+          <Link to="/attractions">
             <img src="/images/atrakcje1.jpg" alt="attractions"></img>
-          </a>
+          </Link>
         </div>
         <div className="mobile-container">
-          <a href="gallery">
+          <Link to="/gallery">
             <img src="/images/beach2.jpg" alt="gallery"></img>
-          </a>
+          </Link>
         </div>
       </div>
     </>

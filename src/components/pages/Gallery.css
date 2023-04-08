@@ -14,8 +14,9 @@
 }
 .container h1 {
   font-size: 1.7rem;
+  color: #a98361;
   position: relative;
-  margin: 40px 0;
+  margin: 20px 0;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
 }
 
@@ -229,7 +230,7 @@ label:hover {
     color: #242424;
     display: flex;
     align-items: center;
-    font-size: 10px;
+    font-size: 14px;
   }
   .top-content label:hover {
     color: #fff;

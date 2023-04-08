@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 
-h1 {
+.apartment h1 {
   text-align: left;
   padding: 20px 30px 5px;
   color: #a98361;

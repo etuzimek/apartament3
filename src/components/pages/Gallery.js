@@ -80,6 +80,24 @@ function Gallery() {
             <div className="pic beach">
               <img src="../images/beach4.jpg" alt="all"></img>
             </div>
+            <div className="pic apartament">
+              <img src="../images/apartament5.jpg" alt="all"></img>
+            </div>
+            <div className="pic apartament">
+              <img src="../images/apartament6.jpg" alt="all"></img>
+            </div>
+            <div className="pic apartament">
+              <img src="../images/apartament7.jpg" alt="all"></img>
+            </div>
+            <div className="pic apartament">
+              <img src="../images/apartament8.jpg" alt="all"></img>
+            </div>
+            <div className="pic apartament">
+              <img src="../images/apartament9.jpg" alt="all"></img>
+            </div>
+            <div className="pic apartament">
+              <img src="../images/apartament10.jpg" alt="all"></img>
+            </div>
           </div>
         </div>
       </div>

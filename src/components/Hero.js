@@ -6,9 +6,9 @@ function Hero() {
     <div className="hero-container">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <p>
-        Sea
+        Green Sea
         <br />
-        Apartament
+        Gdańsk
       </p>
       <span>Zamieszkaj w nowoczesnym mieszkaniu blisko morza</span>
     </div>

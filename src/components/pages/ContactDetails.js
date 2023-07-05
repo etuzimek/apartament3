@@ -6,7 +6,9 @@ function ContactDetails() {
     <>
       <div className="contactDetails">
         <h2>Dane kontaktowe</h2>
-        <p>dgfrd gdrgsdrg dgarg sdge</p>
+        <p>Edward Tuzimek</p>
+        <p>edwardtuzimek@gmail.com</p>
+        <p>Telefon: 790 511 103</p>
       </div>
     </>
   );
